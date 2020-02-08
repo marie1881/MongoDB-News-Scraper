@@ -13,4 +13,4 @@ It also allows the user to add a note onto the articles that they saved and retu
 ![Image of Saved Articles](https://github.com/marie1881/MongoDB-News-Scraper/blob/master/public/images/Saved.PNG)
 
 
-Lastly this website was deployed using Heroku.
+#### Lastly this website was deployed using Heroku.
