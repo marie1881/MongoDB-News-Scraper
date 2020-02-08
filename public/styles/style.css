@@ -14,11 +14,15 @@
     background-color: rgb(134, 198, 250);
 }
 
+#clearScrapedArticles {
+    background-color: rgb(134, 198, 250);
+}
+
 .nav-wrapper {
     font-family: 'Questrial', sans-serif;
-    margin: 5px;
     background:url(../images/trianglify-lowres.png);
     margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 nav {
@@ -37,7 +41,7 @@ nav {
 
 .brand-logo {
     font-family: 'Questrial', sans-serif;
-    color: black;
+    margin-left: 20px;
 }
 
 a {

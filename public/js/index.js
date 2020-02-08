@@ -56,7 +56,7 @@ var initArticles = function () {
             var $arts = data.map(function (artic) {
                 var $li = $("<li>");
 
-                var saveButton = $("<button>").addClass("btn-small waves-effect waves-light indigo right saveIt").attr("type", "submit").attr("name", "action").text("Save Article");
+                var saveButton = $("<button>").addClass("btn-small waves-effect waves-light blue right saveIt").attr("type", "submit").attr("name", "action").text("Save Article");
                 var title = $("<div>").text(artic.title).addClass("collapsible-header");
 
                 var span = $("<a>").attr("href", artic.link).attr("target", "_blank").append($("<span>").text(artic.summary));
@@ -206,13 +206,10 @@ var saveArticle = function () {
 $.getJSON("/articles", function (data) {
     // For each one
     for (var i = 0; i < data.length; i++) {
-        // Display the apropos information on the page
+        
         $("#articles").append("<p data-id='" + data[i]._id + "'>" + data[i].title + "<br />" + data[i].link + "</p>");
     }
 });
-
-
-
 
 
 // Whenever someone clicks a p tag

@@ -23,22 +23,6 @@ module.exports = function (app) {
             result.link = $(this).find(".title").parent().attr("href");
             result.summary = $(this).find(".teaser").text();
 
-            // $(".story-text").each(function (i, element) {
-
-            // var titlePush = $(this).find(".title").text();
-            // var linkPush = $(this).find(".title").parent().attr("href");
-
-            // var summaryPush = $(this).find(".teaser").text();
-
-            // // check if the element has a title and link. If it does, push it to the results array.
-
-            // if (titlePush && linkPush && summaryPush) {
-            //     result.push({
-            //         title: titlePush,
-            //         link: linkPush,
-            //         summary: summaryPush
-            //     });
-            // };
             db.Article.remove({}, function(err) {
                 if (err) {
                     console.log(err)
@@ -240,20 +224,6 @@ app.get("/articles/:id", function (req, res) {
         });
 });
 
-// app.get("/api/notes/:id", function (req, res) {
-//     // Using the id passed in the id parameter, prepare a query that finds the matching one in our db...
-//     db.Note.findOne({ _id: req.params.id })
-//         // ..and populate all of the notes associated with it
-//         .populate("note")
-//         .then(function (dbArticle) {
-//             // If we were able to successfully find an Article with the given id, send it back to the client
-//             res.json(dbArticle);
-//         })
-//         .catch(function (err) {
-//             // If an error occurred, send it to the client
-//             res.json(err);
-//         });
-// });
 
 // Route for saving/updating an Article's associated Note
 app.post("/api/notes/:id", function (req, res) {
