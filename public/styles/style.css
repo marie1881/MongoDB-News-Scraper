@@ -5,3 +5,13 @@
 .buttonMargin {
     margin-left: 5px;
 }
+
+.nav-wrapper {
+    font-family: 'Questrial', sans-serif;
+    margin: 5px;
+    background-color: rgb(238, 118, 138);
+}
+
+nav {
+    background-color: rgb(238, 118, 138);
+}
