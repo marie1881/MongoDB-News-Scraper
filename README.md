@@ -10,5 +10,7 @@ The site displays a simple page showing the options of scraping new articles, cl
 
 It also allows the user to add a note onto the articles that they saved and return to them to see their comment again. The user can also delete their saved article individually. 
 
+![Image of Saved Articles](https://github.com/marie1881/MongoDB-News-Scraper/blob/master/public/images/Home.PNG)
+
 
 Lastly this website was deployed using Heroku.
