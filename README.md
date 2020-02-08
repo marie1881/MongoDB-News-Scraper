@@ -4,7 +4,7 @@ News Scraper employs client-side web scraping to allow the user to scrape a news
 
 The front end aspect was developed by using HTML, CSS, Handlebars and Google Fonts. The back end used Node, Express, Mongo DB, Mongoose, Cheerio & Axios. 
 
-![Image of Home Page](../images/Home)
+![Image of Home Page](https://github.com/marie1881/MongoDB-News-Scraper/blob/master/public/images/Home.PNG)
 
 The site displays a simple page showing the options of scraping new articles, clearing articles and going to your saved articles. 
 
