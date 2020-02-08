@@ -3,28 +3,41 @@
 }
 
 .buttonMargin {
-    margin-left: 5px;
-    background: seagreen;
+    margin-right: 10px;
+}
+
+.buttonMargin:hover {
+    background-color: rgb(250, 159, 189);
+}
+
+#newScrape {
+    background-color: rgb(134, 198, 250);
 }
 
 .nav-wrapper {
     font-family: 'Questrial', sans-serif;
     margin: 5px;
-    background-color: rgb(238, 118, 138);
+    background:url(../images/trianglify-lowres.png);
     margin-bottom: 30px;
 }
 
 nav {
-    background-color: rgb(238, 118, 138);
+    background:url(../images/trianglify-lowres.png);
+}
+
+#clearSavedArticles {
+    background-color: rgb(134, 198, 250);
 }
 
 .btn-small {
-    background: rgb(236, 59, 98);
+    background-color: rgb(216, 168, 255);
+    
 }
 
 
 .brand-logo {
     font-family: 'Questrial', sans-serif;
+    color: black;
 }
 
 a {

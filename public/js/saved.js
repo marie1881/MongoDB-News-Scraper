@@ -105,7 +105,7 @@ var initSaved = function () {
                 var $li = $("<li>");
     
                 var deleteButton = $("<button>").addClass("buttonMargin btn-small waves-effect waves-light right deleteIt").attr("type", "submit").attr("name", "action").text("Delete From Saved");
-                var noteButton = $("<button>").addClass("buttonMargin btn-small waves-effect waves-light modal-trigger right indigo addNote").attr("type", "submit").attr("name", "action").text("Add Note").attr("data-target", "modal1");
+                var noteButton = $("<button>").addClass("buttonMargin btn-small waves-effect waves-light modal-trigger right blue addNote").attr("type", "submit").attr("name", "action").text("Add Note").attr("data-target", "modal1");
     
                 var title = $("<div>").text(artic.title).addClass("collapsible-header");
     
